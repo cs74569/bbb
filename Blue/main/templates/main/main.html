@@ -1,0 +1,36 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+  <head>
+    <title>Blue Shopping</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+  </head>
+  <body>
+  <div id=#"wrapper">
+  <h1>Blue Shopping</h1>
+  <ul id="lo">
+      <li><a href="{% url 'main:main' %}">登入</a></li>
+  </ul>
+  <nav>
+  </nav>
+  <header>
+  </header>
+  <aside>
+  <ul id="cloth">
+  <p><li><a href="{% url 'login:login' %}">衣服</a></li></p>
+  <p><li><a href="{% url 'login:login' %}">褲子</a></li></p>
+  <p><li><a href="{% url 'login:login' %}">帽子</a></li></p>
+  <p><li><a href="{% url 'login:login' %}">其他</a></li></p>
+  </ul>
+  <ul id="menu">
+      <p><li><a href="{% url 'login:login' %}">首頁</a></li></p>
+      <li><a href="{% url 'connect:connect' %}">聯絡我們</a></li>
+  </ul>
+  </aside>
+  <div id="content">
+  </div>
+  </div>
+    <p>{{ like }}</p>
+  </body>
+</html>

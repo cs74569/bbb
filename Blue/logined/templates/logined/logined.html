@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Blue Shopping</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <h1>Blue Shopping</h1>
+  <ul id="menu">
+      <li><a href="{% url 'logined:logined' %}">首頁</a></li>
+      <li><a href="{% url 'loginedconnect:loginedconnect' %}">聯絡我們</a></li>
+      <h4>會員帳號：<li><a href="{% url 'login:login' %}">登出</a></li></h4>
+    </ul>
+   <p><button>衣服</button></p>
+   <p><button>褲子</button></p>
+   <p><button>帽子</button></p>
+   <p><button>其他</button></p>
+  <ul id="menu">
+      <li><a href="{% url 'add:add' %}">新增商品</a></li>
+    </ul>  
+    <p>{{ like }}</p>
+  </body>
+</html>

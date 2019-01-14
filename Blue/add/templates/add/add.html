@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Blue Shopping</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <ul id="menu">
+      <li><a href="{% url 'login:login' %}">首頁</a></li>
+      <li><a href="{% url 'connect:connect' %}">聯絡我們</a></li>
+    </ul>
+    <h3>商品名稱：<input type="text" name=cloth name></h3>
+    <h3>商品種類：衣服<input type="radio" name=thing value=true>褲子<input type="radio" name=thing value=true>帽子<input type="radio" name=thing value=true>其他<input type="radio" name=thing value=true></h3>
+    <h3>商品描述：<input type="text" name=cloth thing</h3>
+    <p>
+    <button>儲存</button>
+    <button>新增</button>
+    <button>刪除</button>
+    </p>
+    <p>{{ like }}</p>
+  </body>
+</html>

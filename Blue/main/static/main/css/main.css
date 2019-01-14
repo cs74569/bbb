@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  height: 110%;
+}
+
+body {
+  padding: 20px;
+  background: url("/static/main/img/background.png") fixed;
+  background-repeat: repeat;
+}
+h1{
+  font-size:80px;
+  text-align: center;
+}
+ul#lo {
+  margin-bottom: 30px;
+  text-align: right;
+  font-size: 25px;
+}
+ul#lo li {
+  display: inline-block;
+  color: black;
+  border: 1px solid black;
+}
+div#wrapper{
+  width: 116em;
+  height: 20em;
+  border-color: black;
+  border-radius: 5px; 
+}
+nav{
+  height: 5em;
+  border: 1px solid black;
+  font-size: 50px;
+  text-align: center;s
+}
+aside{
+  width: 15em;
+  height:35em;
+  float: left;
+  border: 1px solid black;
+  margin-top:50px;
+  margin-right:5px;
+}
+ul#cloth{
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 25px;
+}
+div#content{
+  
+  width: 100em;
+  height: 35em;
+  float: right;
+  border: 1px solid black;
+  margin-top:50px;
+  margin-left:5px;
+}
+ul#menu {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 25px;
+  
+}
+ul#menu li {
+  display: inline-block;
+  color: black;
+  border: 1px solid black;
+button {
+  
+}

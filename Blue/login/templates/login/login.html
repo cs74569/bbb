@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Blue Shopping</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <h1>Blue Shopping</h1>
+   <ul id="menu">
+        <li><a href="{% url 'login:login' %}">首頁</a></li>
+   </ul>
+  <h4>帳號：</h4>
+  <input type="text" name=account>
+  <h4>密碼：</h4>
+  <input type="text" name=password>
+  <ul id="menu">
+      <li><a href="{% url 'logined:logined' %}">登入</a></li>
+      <li><a href="{% url 'create:create' %}">註冊帳號</a></li>　  
+  </ul>
+    <p>{{ like }}</p>
+  </body>
+</html>
